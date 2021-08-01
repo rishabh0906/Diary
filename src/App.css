@@ -1,0 +1,73 @@
+body{
+
+    height: 100vh !important;
+    width: 100vw  !important;
+    background-color: #dfe6e9;
+}
+
+
+.login{
+    display: flex;
+    height: 20rem;
+    flex-direction: column;
+    width: 20rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.BlogDiv{
+
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: rgb(66, 65, 65);
+    border: 2px solid;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.TitleDiv{
+
+    position: absolute;
+    top: 5rem;
+    left: 2.5rem;
+    width: 25rem;
+
+}
+
+.TextDiv{
+    position: absolute;
+    top: 10rem;
+    left: 2.5rem;
+    width: 25rem;
+    overflow: hidden;
+    
+}
+
+.blog-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    height: 4rem;
+    width: 30rem;
+    border: 2px solid;
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+.SignOut{
+    position: absolute;
+    left: 2rem;
+    bottom: 9px;
+}
+
+.Post{
+    position: absolute;
+    right: 2rem;
+    bottom: 9px;
+}
